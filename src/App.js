@@ -19,7 +19,6 @@ function App() {
   const [selBioChoice, setBioChoice] = useState(0);
   const [selPicChoice, setPicChoice] = useState(0);
 
-  console.log(React.version);
 
   return (
     <div className="App" >

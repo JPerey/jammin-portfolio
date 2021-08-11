@@ -8,6 +8,7 @@ const HomePage = props => {
     return (
         <div className="homepage">
             <h1>I AM</h1>
+
             <h1>JAMES PEREY</h1>
             <h1>A WEB DEVELOPER</h1>
             <h1>JAM JAM</h1>
