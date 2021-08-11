@@ -20,54 +20,54 @@ const HomePage = props => {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <Carousel>
+                            <Carousel fade>
 
-                                <Carousel.Item interval="500">
+                                <Carousel.Item interval="1600">
                                     <img
-                                        className="d-block w-100"
+                                        className="d-block w-auto"
                                         src={whitetextbg}
                                         alt="First slide"
-                                        height="300"
+                                        
                                     />
 
                                 </Carousel.Item>
 
-                                <Carousel.Item interval="500">
+                                <Carousel.Item interval="1600">
                                     <img
-                                        className="d-block w-100"
+                                        className="d-block w-auto"
                                         src={whitetextbg2}
                                         alt="Second slide"
-                                        height="300"
+                                        
                                     />
 
                                 </Carousel.Item>
 
-                                <Carousel.Item interval="500">
+                                <Carousel.Item interval="1600">
                                     <img
-                                        className="d-block w-100"
+                                        className="d-block "
                                         src={whitetextbg3}
                                         alt="Third slide"
-                                        height="300"
+                                        
                                     />
 
                                 </Carousel.Item>
 
-                                <Carousel.Item interval="500">
+                                <Carousel.Item interval="1600">
                                     <img
-                                        className="d-block w-100"
+                                        className="d-block "
                                         src={whitetextbg4}
                                         alt="Third slide"
-                                        height="300"
+                                        
                                     />
 
                                 </Carousel.Item>
 
-                                <Carousel.Item interval="500">
+                                <Carousel.Item interval="1600">
                                     <img
-                                        className="d-block w-100"
+                                        className="d-block "
                                         src={whitetextbg5}
                                         alt="Third slide"
-                                        height="300"
+                                        
                                     />
 
                                 </Carousel.Item>

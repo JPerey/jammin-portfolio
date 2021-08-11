@@ -8,6 +8,7 @@ import ArtPage from "./components/ArtPage/ArtPage";
 import HomePage from "./components/HomePage/HomePage";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import SkillsPage from "./components/SkillsPage/SkillsPage";
+import ContactPage from "./components/ContactPage/ContactPage";
 import SideBar from "./components/SideBar/SideBar";
 import BackgroundImage from './components/images/background2.jpg';
 
@@ -37,6 +38,7 @@ function App() {
           <Route exact path="/" render ={() => <HomePage/> }/>
           <Route exact path="/projects" render ={() => <ProjectsPage/> }/>
           <Route exact path="/skills" render ={() => <SkillsPage/> }/>
+          <Route exact path="/contact" render ={() => <ContactPage/> }/>
         </Switch>
       </main>
       <footer className="Footer">
