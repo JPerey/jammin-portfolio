@@ -1,7 +1,7 @@
 import "./SkillsPage.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faArchive, faDatabase, faCameraRetro, faFilePowerpoint,
+import {  faArchive, faCameraRetro, faFilePowerpoint,
     faImages, faBuilding, faCropAlt, faPencilAlt, faCogs, faGlassMartiniAlt,
     faICursor } from '@fortawesome/free-solid-svg-icons'
 //import { Row , Col} from "react-bootstrap";
