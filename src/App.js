@@ -1,6 +1,8 @@
 import { React, useState } from "react";
 import './App.css';
 import { Route, Switch } from "react-router-dom";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 //components
 import AboutPage from "./components/AboutPage/AboutPage";
@@ -19,6 +21,8 @@ function App() {
 
   const [selBioChoice, setBioChoice] = useState(0);
   const [selPicChoice, setPicChoice] = useState(0);
+
+  library.add(fab);
 
 
   return (

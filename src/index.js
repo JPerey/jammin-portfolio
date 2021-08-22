@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // import the BrowserRouter and assign an alias
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>

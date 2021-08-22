@@ -1,10 +1,10 @@
 import "./SideBar.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import JPlogo from "../images/jplogo.png";
 import "bootstrap/dist/css/bootstrap.css";
 import Resume from "../Resume/jamespereyresume.pdf";
-
 
 
 const SideBar = props => {
@@ -34,7 +34,12 @@ const SideBar = props => {
                 <hr/>
                 <a href={Resume} download="james-perey-resume.pdf">.Resume</a>
                 <div>
-            <span className="fas fa-camera"></span>
+            <span>
+                <a href="https://www.linkedin.com/in/jamjamperey/"><FontAwesomeIcon icon= {['fab', 'linkedin']}/></a>
+                <a href="https://github.com/JPerey"><FontAwesomeIcon icon= {['fab', 'github']}/></a>
+                <a href="https://jamjamperey.artstation.com/"><FontAwesomeIcon icon= {['fab', 'artstation']}/></a>
+                <a href="https://www.instagram.com/pb.n.jam/"><FontAwesomeIcon icon= {['fab', 'instagram']}/></a>
+            </span>
             </div>
             </Nav>
         </Navbar>

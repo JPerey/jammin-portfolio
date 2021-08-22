@@ -1,55 +1,106 @@
-import "./SkillsPage.module.css";
+import "./SkillsPage.css";
 import React from "react";
-import { Row , Col} from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {  faArchive, faDatabase, faCameraRetro, faFilePowerpoint,
+    faImages, faBuilding, faCropAlt, faPencilAlt, faCogs, faGlassMartiniAlt,
+    faICursor } from '@fortawesome/free-solid-svg-icons'
+//import { Row , Col} from "react-bootstrap";
 
 const SkillsPage = props => {
     return (
         <div className="SkillsPage " >
-            <div className= "languages">
-                <Col xs={12}>
-                <Row center="xs">
-                   <Col xs={6}><h2>Languages</h2> </Col>
-                </Row>
-                </Col>
-                <Row >
-                    <Col><h4>Javascript</h4></Col>
-                    <Col><h4>Python</h4></Col>
-                    <Col><h4>HTML5</h4></Col>
-                    <Col><h4>CSS3</h4></Col>
-                    <Col><h4>Markdown</h4></Col>
-                </Row>
-            </div>
-            <div className= "Frameworks-Libraries">
-                <h2>Frameworks/Libraries</h2>
-                <Row>
-                <Col><h4>React</h4></Col>
-                <Col><h4>Node.js</h4></Col>
-                <Col><h4>django</h4></Col>
-                <Col><h4>express.js</h4></Col>
-                <Col><h4>jQuery</h4></Col>
-                </Row>
-                <Row>
-                <Col><h4>Materialize</h4></Col>
-                <Col><h4>Bootstrap</h4></Col>
-                <Col><h4>GatsbyJS</h4></Col>
-                </Row>
-                
-            </div>
-            <div className= "Other">
-                <h2>Other</h2>
-                <Row>
-                <Col><h4>AWS</h4></Col>
-                <Col><h4>MongoDB</h4></Col>
-                <Col><h4>PostgreSQL</h4></Col>
-                <Col><h4>Procreate</h4></Col>
-                <Col><h4>Lumafusion</h4></Col>
-                </Row>
-                <Row>
-                <Col><h4>Revit</h4></Col>
-                <Col><h4>IESVE</h4></Col>
-                </Row>
-                
-            </div>
+            <table className="languagestable">
+                <thead>
+                    <tr>
+                        <th colspan="5">
+                            Languages
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><FontAwesomeIcon icon= {['fab', 'js']}/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'python']}/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'java']}/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'html5']}/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'css3']}/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'markdown']}/></td>
+                    </tr>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>Python</td>
+                        <td>Java</td>
+                        <td>HTML5</td>
+                        <td>CSS3</td>
+                        <td>MarkDown</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table className="frameworkstable">
+                <thead>
+                    <tr>
+                        <th colspan="5">
+                            Frameworks & Libraries
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><FontAwesomeIcon icon= {['fab', 'react']}/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'node']}/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'whmcs']}/></td>
+                        <td><FontAwesomeIcon icon= { faCogs }/></td>
+                        <td><FontAwesomeIcon icon= { faICursor}/></td>
+                        <td><FontAwesomeIcon icon= { faPencilAlt }/></td>
+                        <td><FontAwesomeIcon icon= {['fab', 'bootstrap']}/></td>
+                        <td><FontAwesomeIcon icon= { faGlassMartiniAlt}/></td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>Node.js</td>
+                        <td>Django</td>
+                        <td>express.js</td>
+                        <td>jQuery</td>
+                        <td>Materialize</td>
+                        <td>Bootstrap</td>
+                        <td>Gatsby.js</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table className="othertable">
+                <thead>
+                    <tr>
+                        <th colspan="5">
+                            Other
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td ><FontAwesomeIcon icon= {['fab', 'aws']}/></td>
+                        <td ><FontAwesomeIcon icon= {['fab', 'mdb']}/></td>
+                        <td><FontAwesomeIcon icon= { faArchive }/></td>
+                        <td><FontAwesomeIcon icon= { faCameraRetro }/></td>
+                        <td><FontAwesomeIcon icon= { faCropAlt }/></td>
+                        <td><FontAwesomeIcon icon= { faFilePowerpoint }/></td>
+                        <td><FontAwesomeIcon icon= { faBuilding }/></td>
+                        <td><FontAwesomeIcon icon= { faImages }/></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>AWS</td>
+                        <td>MongoDB</td>
+                        <td>PostgreSQL</td>
+                        <td>Procreate</td>
+                        <td>LumaFusion</td>
+                        <td>Photoshop</td>
+                        <td>Revit</td>
+                        <td>IESVE</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     )
 }
