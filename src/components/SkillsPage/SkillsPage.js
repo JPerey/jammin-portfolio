@@ -19,12 +19,12 @@ const SkillsPage = props => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td><FontAwesomeIcon icon= {['fab', 'js']}/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'python']}/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'java']}/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'html5']}/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'css3']}/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'markdown']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'js']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'python']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'java']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'html5']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'css3']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'markdown']}/></td>
                     </tr>
                     <tr>
                         <td>Javascript</td>
@@ -47,14 +47,14 @@ const SkillsPage = props => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td><FontAwesomeIcon icon= {['fab', 'react']}/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'node']}/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'whmcs']}/></td>
-                        <td><FontAwesomeIcon icon= { faCogs }/></td>
-                        <td><FontAwesomeIcon icon= { faICursor}/></td>
-                        <td><FontAwesomeIcon icon= { faPencilAlt }/></td>
-                        <td><FontAwesomeIcon icon= {['fab', 'bootstrap']}/></td>
-                        <td><FontAwesomeIcon icon= { faGlassMartiniAlt}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'react']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'node']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'whmcs']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faCogs }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faICursor}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faPencilAlt }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'bootstrap']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faGlassMartiniAlt}/></td>
                     </tr>
                     <tr>
                         <td>React</td>
@@ -79,14 +79,14 @@ const SkillsPage = props => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td ><FontAwesomeIcon icon= {['fab', 'aws']}/></td>
-                        <td ><FontAwesomeIcon icon= {['fab', 'mdb']}/></td>
-                        <td><FontAwesomeIcon icon= { faArchive }/></td>
-                        <td><FontAwesomeIcon icon= { faCameraRetro }/></td>
-                        <td><FontAwesomeIcon icon= { faCropAlt }/></td>
-                        <td><FontAwesomeIcon icon= { faFilePowerpoint }/></td>
-                        <td><FontAwesomeIcon icon= { faBuilding }/></td>
-                        <td><FontAwesomeIcon icon= { faImages }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'aws']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= {['fab', 'mdb']}/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faArchive }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faCameraRetro }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faCropAlt }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faFilePowerpoint }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faBuilding }/></td>
+                        <td><FontAwesomeIcon size={"3x"} icon= { faImages }/></td>
                         
                     </tr>
                     <tr>

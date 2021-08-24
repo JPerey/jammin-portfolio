@@ -34,10 +34,11 @@ const SideBar = props => {
                 <a href={Resume} download="james-perey-resume.pdf">.Resume</a>
                 <div>
             <span>
-                <a href="https://www.linkedin.com/in/jamjamperey/"><FontAwesomeIcon icon= {['fab', 'linkedin']}/></a>
-                <a href="https://github.com/JPerey"><FontAwesomeIcon icon= {['fab', 'github']}/></a>
-                <a href="https://jamjamperey.artstation.com/"><FontAwesomeIcon icon= {['fab', 'artstation']}/></a>
-                <a href="https://www.instagram.com/pb.n.jam/"><FontAwesomeIcon icon= {['fab', 'instagram']}/></a>
+                
+                <a href="https://www.linkedin.com/in/jamjamperey/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'linkedin']}/></a>
+                <a href="https://github.com/JPerey"><FontAwesomeIcon size={"2x"} icon= {['fab', 'github']}/></a>
+                <a href="https://jamjamperey.artstation.com/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'artstation']}/></a>
+                <a href="https://www.instagram.com/pb.n.jam/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'instagram']}/></a>
             </span>
             </div>
             </Nav>
