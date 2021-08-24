@@ -35,10 +35,10 @@ const SideBar = props => {
                 <div>
             <span>
                 
-                <a href="https://www.linkedin.com/in/jamjamperey/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'linkedin']}/></a>
-                <a href="https://github.com/JPerey"><FontAwesomeIcon size={"2x"} icon= {['fab', 'github']}/></a>
-                <a href="https://jamjamperey.artstation.com/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'artstation']}/></a>
-                <a href="https://www.instagram.com/pb.n.jam/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'instagram']}/></a>
+                <a href="https://www.linkedin.com/in/jamjamperey/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'linkedin']} color="blue"/></a>
+                <a href="https://github.com/JPerey"><FontAwesomeIcon size={"2x"} icon= {['fab', 'github']} color="black"/></a>
+                <a href="https://jamjamperey.artstation.com/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'artstation']} color="neonblue"/></a>
+                <a href="https://www.instagram.com/pb.n.jam/"><FontAwesomeIcon size={"2x"} icon= {['fab', 'instagram']} color="purple"/></a>
             </span>
             </div>
             </Nav>
