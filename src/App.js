@@ -39,7 +39,9 @@ function App() {
           bioChoice={bioChoice} selBioChoice={selBioChoice} setBioChoice={setBioChoice} 
           picChoice={picChoice} selPicChoice={selPicChoice} setPicChoice={setPicChoice}/> } />
           <Route exact path="/art" render ={() => <ArtPage/> }/>
-          <Route exact path="/" render ={() => <HomePage/> }/>
+          <Route exact path="/" render ={() => <HomePage 
+          bioChoice={bioChoice} selBioChoice={selBioChoice} setBioChoice={setBioChoice} 
+          picChoice={picChoice} selPicChoice={selPicChoice} setPicChoice={setPicChoice}/> }/>
           <Route exact path="/projects" render ={() => <ProjectsPage/> }/>
           <Route exact path="/skills" render ={() => <SkillsPage/> }/>
           <Route exact path="/contact" render ={() => <ContactPage/> }/>

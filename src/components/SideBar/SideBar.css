@@ -3,3 +3,13 @@
     flex-direction: column;
     justify-content: flex-start;
 } */
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.SideBar {
+    display: flex;
+    justify-content: flex-end;
+}

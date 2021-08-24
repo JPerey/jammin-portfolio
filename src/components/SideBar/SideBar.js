@@ -2,7 +2,7 @@ import "./SideBar.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import JPlogo from "../images/jplogo.png";
+import JPlogo from "../images/jplogo.GIF";
 import "bootstrap/dist/css/bootstrap.css";
 import Resume from "../Resume/jamespereyresume.pdf";
 
@@ -22,15 +22,14 @@ const SideBar = props => {
                     className="d-inline-block align-top"
                     alt="React Bootstrap logo"/>
             </Navbar.Brand>
-                <Nav.Link variant="dark" eventKey={1} as={Link} to="/about">.About</Nav.Link>
                 <hr/>
-                <Nav.Link eventKey={2} as={Link} to="/projects">.Projects</Nav.Link>
+                <Nav.Link eventKey={1} as={Link} to="/projects">.Projects</Nav.Link>
                 <hr/>
-                <Nav.Link eventKey={3} as={Link} to="/skills">.Skills</Nav.Link>
+                <Nav.Link eventKey={2} as={Link} to="/skills">.Skills</Nav.Link>
                 <hr/>
-                <Nav.Link eventKey={4} as={Link} to="/art">.Art</Nav.Link>
+                <Nav.Link eventKey={3} as={Link} to="/art">.Art</Nav.Link>
                 <hr/>
-                <Nav.Link eventKey={5} as={Link} to="/contact">.Contact</Nav.Link>
+                <Nav.Link eventKey={4} as={Link} to="/contact">.Contact</Nav.Link>
                 <hr/>
                 <a href={Resume} download="james-perey-resume.pdf">.Resume</a>
                 <div>
